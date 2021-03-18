@@ -36,7 +36,7 @@ export default class Art extends Component {
 				<div className="row">
 					<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 						<span className="heading-meta">Art</span>
-						<h2 className="colorlib-heading">See some projects</h2>
+						<h2 className="colorlib-heading">geometric abstract paintings</h2>
 					</div>
 				</div>
 				<div className="row">
@@ -50,7 +50,7 @@ export default class Art extends Component {
 								<br/>
 								Oil on Canvas
 								<br/>
-								24"x32"
+								24" x 32"
 							</p>
 						</div>
 					</div>
@@ -59,13 +59,13 @@ export default class Art extends Component {
 					<div className="art-entry">
 						<a className="art-img"><img src="images/art_2.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}/></a>
 						<div className="desc">
-							<h3><a>Floating Planes</a></h3>
+							<h3><a>Central Light Space</a></h3>
 							<p>
-								2013
+								2020
 								<br/>
-								Oil on Canvas
+								Acrylic on Canvas
 								<br/>
-								24"x32"
+								24" x 36"
 							</p>
 						</div>
 					</div>
@@ -74,13 +74,13 @@ export default class Art extends Component {
 					<div className="art-entry">
 						<a className="art-img"><img src="images/art_3.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}/></a>
 						<div className="desc">
-							<h3><a>Floating Planes</a></h3>
+							<h3><a>Primary Ribbons</a></h3>
 							<p>
-								2013
+								2021
 								<br/>
-								Oil on Canvas
+								Acrylic on Canvas
 								<br/>
-								24"x32"
+								36" x 48"
 							</p>
 						</div>
 					</div>
@@ -91,13 +91,13 @@ export default class Art extends Component {
 					<div className="art-entry">
 						<a className="art-img"><img src="images/art_4.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}/></a>
 						<div className="desc">
-							<h3><a>Floating Planes</a></h3>
+							<h3><a>Suspended Rays</a></h3>
 							<p>
-								2013
+								2020
 								<br/>
-								Oil on Canvas
+								Acrylic on Canvas
 								<br/>
-								24"x32"
+								22" x 28"
 							</p>
 						</div>
 					</div>
@@ -106,13 +106,13 @@ export default class Art extends Component {
 					<div className="art-entry">
 						<a className="art-img"><img src="images/art_5.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}/></a>
 						<div className="desc">
-							<h3><a>Floating Planes</a></h3>
+							<h3><a>Complementary Corner</a></h3>
 							<p>
-								2013
+								2020
 								<br/>
-								Oil on Canvas
+								Acrylic on Canvas
 								<br/>
-								24"x32"
+								24" x 36"
 							</p>
 						</div>
 					</div>
@@ -121,13 +121,13 @@ export default class Art extends Component {
 					<div className="art-entry">
 						<a className="art-img"><img src="images/art_6.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}/></a>
 						<div className="desc">
-							<h3><a>Floating Planes</a></h3>
+							<h3><a>Down and Outward</a></h3>
 							<p>
-								2013
+								2020
 								<br/>
-								Oil on Canvas
+								Acrylic on Canvas
 								<br/>
-								24"x32"
+								22" x 28"
 							</p>
 						</div>
 					</div>
@@ -138,13 +138,13 @@ export default class Art extends Component {
 					<div className="art-entry">
 						<a className="art-img"><img src="images/art_7.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}/></a>
 						<div className="desc">
-							<h3><a>Floating Planes</a></h3>
+							<h3><a>Extrusion in Blue</a></h3>
 							<p>
-								2013
+								2020
 								<br/>
-								Oil on Canvas
+								Acrylic on Canvas
 								<br/>
-								24"x32"
+								24" x 36"
 							</p>
 						</div>
 					</div>
@@ -153,13 +153,13 @@ export default class Art extends Component {
 					<div className="art-entry">
 						<a className="art-img"><img src="images/art_8.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}/></a>
 						<div className="desc">
-							<h3><a>Floating Planes</a></h3>
+							<h3><a>Big Void Tiny Cube</a></h3>
 							<p>
-								2013
+								2021
 								<br/>
-								Oil on Canvas
+								Acrylic on Canvas
 								<br/>
-								24"x32"
+								48" x 36"
 							</p>
 						</div>
 					</div>
@@ -168,13 +168,13 @@ export default class Art extends Component {
 					<div className="art-entry">
 						<a className="art-img"><img src="images/art_9.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 8 })}/></a>
 						<div className="desc">
-							<h3><a>Floating Planes</a></h3>
+							<h3><a>Polygonal Platform</a></h3>
 							<p>
-								2013
+								2020
 								<br/>
-								Oil on Canvas
+								Acrylic on Canvas
 								<br/>
-								24"x32"
+								24" x 36"
 							</p>
 						</div>
 					</div>
@@ -185,13 +185,13 @@ export default class Art extends Component {
 					<div className="art-entry">
 						<a className="art-img"><img src="images/art_10.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 9 })}/></a>
 						<div className="desc">
-							<h3><a>Floating Planes</a></h3>
+							<h3><a>Hexagonal Place</a></h3>
 							<p>
-								2013
+								2021
 								<br/>
-								Oil on Canvas
+								Acrylic on Canvas
 								<br/>
-								24"x32"
+								36" x 36"
 							</p>
 						</div>
 					</div>
@@ -200,13 +200,13 @@ export default class Art extends Component {
 					<div className="art-entry">
 						<a className="art-img"><img src="images/art_11.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 10 })}/></a>
 						<div className="desc">
-							<h3><a>Floating Planes</a></h3>
+							<h3><a>Hovering Solids</a></h3>
 							<p>
-								2013
+								2021
 								<br/>
-								Oil on Canvas
+								Acrylic on Canvas
 								<br/>
-								24"x32"
+								36" x 48"
 							</p>
 						</div>
 					</div>

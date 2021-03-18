@@ -7,7 +7,7 @@ export default class Introduction extends Component {
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
             <ul className="slides">
-              <li style={{backgroundImage: 'url(images/img_bg.jpg)'}}>
+              <li style={{backgroundImage: 'url(images/art_8.jpg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -15,9 +15,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1>
-                            Hi! I am
-                            <br />
-                            Charlotte Townes
+                            Abstract Paintings <br></br> by Townes
                           </h1>
                           <p><a className="btn btn-primary btn-learn">Store Coming Soon <i className="icon-download4" /></a></p>
                         </div>
