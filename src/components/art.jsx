@@ -183,7 +183,22 @@ export default class Art extends Component {
 				<div className="row">
 					<div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 					<div className="art-entry">
-						<a className="art-img"><img src="images/art_10.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 9 })}/></a>
+						<a className="art-img"><img src="images/art_10.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}/></a>
+						<div className="desc">
+							<h3><a>Floating Planes II</a></h3>
+							<p>
+								2021
+								<br/>
+								Acrylic on Canvas
+								<br/>
+								24" x 32"
+							</p>
+						</div>
+					</div>
+					</div>
+					<div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+					<div className="art-entry">
+						<a className="art-img"><img src="images/art_11.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 9 })}/></a>
 						<div className="desc">
 							<h3><a>Hexagonal Place</a></h3>
 							<p>
@@ -198,7 +213,7 @@ export default class Art extends Component {
 					</div>
 					<div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 					<div className="art-entry">
-						<a className="art-img"><img src="images/art_11.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 10 })}/></a>
+						<a className="art-img"><img src="images/art_12.jpg" className="img-responsive" onClick={() => this.setState({ isOpen: true, photoIndex: 10 })}/></a>
 						<div className="desc">
 							<h3><a>Hovering Solids</a></h3>
 							<p>

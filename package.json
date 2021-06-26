@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dbarochiya.github.io/me",
+  "homepage": ".",
   "dependencies": {
     "bootstrap": "^4.6.0",
     "gh-pages": "^2.0.1",

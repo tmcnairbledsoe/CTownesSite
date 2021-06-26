@@ -31,8 +31,6 @@ export default class Sidebar extends Component {
             <div className="colorlib-footer">
               <p><small>
                 Paintings currently hung at Universal Cafe in Greenville, SC
-                <br />
-                Soon to be at the Artists Guild of Greenville
               </small></p>
             </div>
           </aside>
