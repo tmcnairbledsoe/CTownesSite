@@ -51,6 +51,11 @@ export default class Art extends Component {
 								Oil on Canvas
 								<br/>
 								24" x 32"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $768
+								<br/>
+								Print 12"x16": &nbsp;&nbsp;&nbsp;&nbsp;$38.40
 							</p>
 						</div>
 					</div>
@@ -66,6 +71,11 @@ export default class Art extends Component {
 								Acrylic on Canvas
 								<br/>
 								24" x 36"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $698
+								<br/>
+								Print 18"x12": &nbsp;&nbsp;&nbsp;&nbsp;$42.20
 							</p>
 						</div>
 					</div>
@@ -81,6 +91,13 @@ export default class Art extends Component {
 								Acrylic on Canvas
 								<br/>
 								36" x 48"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1,385
+								<br/>
+								Print 18"x24": &nbsp;&nbsp;&nbsp;&nbsp;$86.40
+								<br/>
+								Print  9"x12": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
 							</p>
 						</div>
 					</div>
@@ -98,6 +115,11 @@ export default class Art extends Component {
 								Acrylic on Canvas
 								<br/>
 								22" x 28"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $498
+								<br/>
+								Print 14"x11": &nbsp;&nbsp;&nbsp;&nbsp;$30.80
 							</p>
 						</div>
 					</div>
@@ -113,6 +135,11 @@ export default class Art extends Component {
 								Acrylic on Canvas
 								<br/>
 								24" x 36"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $648
+								<br/>
+								Print 18"x12": &nbsp;&nbsp;&nbsp;&nbsp;$43.20
 							</p>
 						</div>
 					</div>
@@ -128,6 +155,9 @@ export default class Art extends Component {
 								Acrylic on Canvas
 								<br/>
 								22" x 28"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $498
 							</p>
 						</div>
 					</div>
@@ -145,6 +175,11 @@ export default class Art extends Component {
 								Acrylic on Canvas
 								<br/>
 								24" x 36"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $698
+								<br/>
+								Print 18"x12": &nbsp;&nbsp;&nbsp;&nbsp;$43.20
 							</p>
 						</div>
 					</div>
@@ -160,6 +195,13 @@ export default class Art extends Component {
 								Acrylic on Canvas
 								<br/>
 								48" x 36"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1,385
+								<br/>
+								Print 24"x18": &nbsp;&nbsp;&nbsp;&nbsp;$86.40
+								<br/>
+								Print 12"x 9": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
 							</p>
 						</div>
 					</div>
@@ -175,6 +217,11 @@ export default class Art extends Component {
 								Acrylic on Canvas
 								<br/>
 								24" x 36"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $698
+								<br/>
+								Print 18"x12": &nbsp;&nbsp;&nbsp;&nbsp;$43.20
 							</p>
 						</div>
 					</div>
@@ -192,6 +239,13 @@ export default class Art extends Component {
 								Acrylic on Canvas
 								<br/>
 								24" x 32"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1,385
+								<br/>
+								Print 18"x24": &nbsp;&nbsp;&nbsp;&nbsp;$86.40
+								<br/>
+								Print  9"x12": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
 							</p>
 						</div>
 					</div>
@@ -207,6 +261,13 @@ export default class Art extends Component {
 								Acrylic on Canvas
 								<br/>
 								36" x 36"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1,036
+								<br/>
+								Print 18"x18": &nbsp;&nbsp;&nbsp;&nbsp;$64.80
+								<br/>
+								Print 12"x12": &nbsp;&nbsp;&nbsp;&nbsp;$28.80
 							</p>
 						</div>
 					</div>
@@ -222,6 +283,13 @@ export default class Art extends Component {
 								Acrylic on Canvas
 								<br/>
 								36" x 48"
+								<br/>
+								<br/>
+								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1,385
+								<br/>
+								Print 18"x24": &nbsp;&nbsp;&nbsp;&nbsp;$86.40
+								<br/>
+								Print  9"x12": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
 							</p>
 						</div>
 					</div>
