@@ -37,6 +37,7 @@ export default class Art extends Component {
 					<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 						<span className="heading-meta">Art</span>
 						<h2 className="colorlib-heading">geometric abstract paintings</h2>
+						<span className="heading-meta">All prints are giclée, made using high quality archival ink and paper</span>
 					</div>
 				</div>
 				<div className="row">
@@ -97,7 +98,7 @@ export default class Art extends Component {
 								<br/>
 								Print 18"x24": &nbsp;&nbsp;&nbsp;&nbsp;$86.40
 								<br/>
-								Print  9"x12": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
+								Print &nbsp;&nbsp;9"x12": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
 							</p>
 						</div>
 					</div>
@@ -201,7 +202,7 @@ export default class Art extends Component {
 								<br/>
 								Print 24"x18": &nbsp;&nbsp;&nbsp;&nbsp;$86.40
 								<br/>
-								Print 12"x 9": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
+								Print 12"x &nbsp;9": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
 							</p>
 						</div>
 					</div>
@@ -238,14 +239,14 @@ export default class Art extends Component {
 								<br/>
 								Acrylic on Canvas
 								<br/>
-								24" x 32"
+								36" x 48"
 								<br/>
 								<br/>
 								Original: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1,385
 								<br/>
 								Print 18"x24": &nbsp;&nbsp;&nbsp;&nbsp;$86.40
 								<br/>
-								Print  9"x12": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
+								Print &nbsp;&nbsp;9"x12": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
 							</p>
 						</div>
 					</div>
@@ -289,7 +290,7 @@ export default class Art extends Component {
 								<br/>
 								Print 18"x24": &nbsp;&nbsp;&nbsp;&nbsp;$86.40
 								<br/>
-								Print  9"x12": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
+								Print &nbsp;&nbsp;9"x12": &nbsp;&nbsp;&nbsp;&nbsp;$21.60
 							</p>
 						</div>
 					</div>
