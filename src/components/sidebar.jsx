@@ -30,7 +30,7 @@ export default class Sidebar extends Component {
             </nav>
             <div className="colorlib-footer">
               <p><small>
-                Paintings are currently hung at <br/><a href="https://www.artintr.com/white-rabbit-gallery.html">White Rabbit Fine Art Gallery</a><br/>Travellers Rest, SC
+                
               </small></p>
             </div>
           </aside>
