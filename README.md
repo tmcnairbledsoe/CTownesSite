@@ -1,4 +1,51 @@
-# Getting Started with Create React App
+# Charlotte Townes Art
+
+## Azure hosting and automatic deployment
+
+The GitHub Actions workflow in `.github/workflows/azure-static-web-apps.yml`
+tests and builds pull requests targeting `main`. Pushes to `main`, including
+merged pull requests, also deploy the production build to Azure Static Web Apps.
+A failed test or build prevents deployment. Local commits and `git pull` do not
+trigger deployment; the commit must be pushed to GitHub.
+
+The workflow uses Node 24 (see `.nvmrc`), `npm ci`, the committed lockfile, and
+Create React App's `build` directory. Azure receives the already-built files.
+Pull requests validate the app without using the production deployment token.
+Manual runs deploy only when run from `main`.
+
+The build step sets `CI=false` because the existing portfolio template has
+accessibility lint warnings (such as image alt text and placeholder links).
+Warnings remain visible in the build log; compilation errors and test failures
+still stop deployment. The tests retain GitHub Actions' normal CI behavior.
+
+### One-time connection
+
+1. Create an Azure Static Web App using the **Free** hosting plan and **Other**
+   deployment source (the workflow is already provided in this repository).
+2. In that resource, copy the deployment token and save it under GitHub
+   **Settings > Secrets and variables > Actions** as
+   `AZURE_STATIC_WEB_APPS_API_TOKEN`. Never commit the token.
+3. Push this configuration to `main`.
+4. In GitHub **Actions**, verify that the Azure Static Web Apps run succeeds,
+   then open the URL shown in the Azure resource's Overview page.
+
+This configuration alone does not provision an Azure resource or set the secret.
+After setup, use pull requests for changes and merge them into the production
+branch. To roll back, revert the unwanted commit and push the revert; it will
+deploy through the same workflow. `npm run deploy` is the older GitHub Pages
+command and is not used by Azure.
+
+### Local validation
+
+With Node 24 installed:
+
+```sh
+npm ci
+npm test -- --watchAll=false --runInBand
+npm run build
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
