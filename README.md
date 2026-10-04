@@ -2,6 +2,14 @@
 
 ## Azure hosting and automatic deployment
 
+Hosting is provisioned on Azure Static Web Apps' Free plan:
+
+- Site: https://green-smoke-079740a0f.4.azurestaticapps.net
+- Azure subscription: `CLTart`
+- Resource group: `rg-charlotte-townes-site`
+- Static Web App: `charlotte-townes-art`
+- Deployment history: https://github.com/tmcnairbledsoe/CTownesSite/actions/workflows/azure-static-web-apps.yml
+
 The GitHub Actions workflow in `.github/workflows/azure-static-web-apps.yml`
 tests and builds pull requests targeting `main`. Pushes to `main`, including
 merged pull requests, also deploy the production build to Azure Static Web Apps.
@@ -18,7 +26,10 @@ accessibility lint warnings (such as image alt text and placeholder links).
 Warnings remain visible in the build log; compilation errors and test failures
 still stop deployment. The tests retain GitHub Actions' normal CI behavior.
 
-### One-time connection
+### Recreating the connection
+
+The deployment secret is configured in GitHub. These steps are needed only when
+recreating the hosting resource or replacing its deployment token.
 
 1. Create an Azure Static Web App using the **Free** hosting plan and **Other**
    deployment source (the workflow is already provided in this repository).
